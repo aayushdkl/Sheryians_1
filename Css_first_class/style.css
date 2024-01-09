@@ -9,6 +9,25 @@ html,body {
   height: 100%;
 }
 
-h1::selection{
+/* h1::selection{
     color: green;
+} */
+
+/* h1:hover{
+    color:aqua;
+} */
+
+/* button:active{
+    background-color: red;
 }
+
+input:focus{
+    background-color: blue;
+} */
+/* 
+p:nth-child(2n){
+    color: red;
+}
+p:nth-child(2){
+    color: red;
+} */

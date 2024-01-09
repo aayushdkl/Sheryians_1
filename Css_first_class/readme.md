@@ -36,5 +36,9 @@ h1::selection{
   ::selection
 
 pseudo-classes
+    :hover
+    :active
+    :focus
+    :nth-child(n)
 
 animation media queries
