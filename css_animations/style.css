@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.main_section {
+  padding: 30px;
+}
+
+.lets_animate {
+  width: 300px;
+  height: 300px;
+  background-color: aqua;
+  animation-name: animate;
+  animation-duration: 5s;
+  position: relative;
+}
+
+
+@keyframes animate {
+    from{
+        left: 0;
+        background-color: aqua;
+
+    }
+    to{
+        left: 50%;
+        background-color: brown;
+        border-radius: 500px;
+        rotate: 45deg;
+    }
+}
+
+h1{
+    color: rebeccapurple;
+}
+h1::after{
+    content: "Aayush Dhakal";
+    color: blue;
+    
+}
